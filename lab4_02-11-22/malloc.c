@@ -16,10 +16,15 @@ int main()
 
     for(n = 0; n < i; n++)
         buffer[n] = rand() % 26 + 'a'; // generazione di numeri tra 0 e 2 + traslazione di 97 == 'a' (ASCII)
+
     buffer[i] = '\0';
 
     printf("Stringa RANDOM: %s\n", buffer);
+
     free(buffer);
 
     return 0;
 }
+
+
+

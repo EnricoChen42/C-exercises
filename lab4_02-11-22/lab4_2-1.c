@@ -32,7 +32,7 @@ int main()
     int mat[2][2], det, sum = 0; 
     srand(time(NULL));
 
-    genera_matrice(mat, &det, &sum);
+    genera_matrice(mat, &det, &sum); // mat = indirizzo del primo elemento dell'array
     stampa_matrice(mat);
 
     printf("Determinante = %d\n", det);
