@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.module": "php",
-        "random": "c"
+        "random": "c",
+        "unistd.h": "c"
     }
 }

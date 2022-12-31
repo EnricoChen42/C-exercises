@@ -153,3 +153,5 @@ void gameover(int *counter_shots)
 {
     printf("\n\nTutte le navi sono state affondate dopo %d colpi!", *counter_shots);
 }
+
+
