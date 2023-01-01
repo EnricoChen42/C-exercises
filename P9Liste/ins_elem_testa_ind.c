@@ -1,4 +1,4 @@
-// Inserimento elemento creato in testa alla lista per indirizzo
+// Inserimento di un elemento in testa alla lista per indirizzo
 
 #include <stdio.h>
 #include <stdlib.h>

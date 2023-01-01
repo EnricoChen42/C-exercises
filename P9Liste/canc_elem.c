@@ -1,3 +1,7 @@
+// La funzione "cancella" estrae dalla lista lista e cancella dalla memoria tutti 
+// gli elementi della lista on valore 5
+
+
 #include <stdio.h>
 #include <stdlib.h>
 

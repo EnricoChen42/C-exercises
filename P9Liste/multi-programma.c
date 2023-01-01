@@ -1,5 +1,3 @@
-// Estrazione di un elemento dalla testsa di una lista
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +13,7 @@ struct el *creael(int v)
     temp = malloc(sizeof(struct el));   
 
     if(temp == NULL)
-        return temp;
+        return NULL;
 
     temp -> info = v;
     temp -> next = NULL;

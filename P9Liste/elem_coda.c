@@ -1,3 +1,5 @@
+// Inserimento di un elemento in coda alla lista
+
 #include <stdio.h>
 #include <stdlib.h>
 

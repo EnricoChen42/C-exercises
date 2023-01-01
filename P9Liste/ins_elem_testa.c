@@ -1,4 +1,4 @@
-// Inserimento elemento creato in testa alla lista
+// Inserimento di un elemento in testa alla lista
 
 #include <stdio.h>
 #include <stdlib.h>

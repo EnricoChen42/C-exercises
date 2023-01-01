@@ -1,4 +1,5 @@
-// Estrae dalla lista il primo elemnto con valore 5 e restituisce la lista modificata e l'indirizzo dell'elemento
+// Estrae dalla lista il primo elemnto con valore 5 e restituisce la lista 
+// modificata e l'indirizzo dell'elemento
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,7 +33,7 @@ struct el *estrai(struct el *L, int num, struct el **e)
                 *e = current;
                 return L; 
             }
-            else // posizione intermedia 
+            else // posizioni restanti
             {
                 prec -> next = current -> next;
                 *e = current;
