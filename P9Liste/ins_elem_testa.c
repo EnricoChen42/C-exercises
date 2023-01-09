@@ -31,7 +31,7 @@ void push(struct el **L, struct el *e)
     if(e == NULL)
         return;
     
-    if(L == NULL)
+    if(*L == NULL)
     {
         printf("\n(3) E' stato inserito con successo l'elemento nuovo in testa alla lista.\n");
         *L = e;
